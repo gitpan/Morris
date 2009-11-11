@@ -1,0 +1,36 @@
+---
+abstract: 'An IRC Bot Based On Moose/AnyEvent'
+author:
+  - 'Daisuke Maki C<< <daisuke@endeworks.jp> >> '
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
+distribution_type: module
+generated_by: 'Module::Install version 0.91'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Morris
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  AnyEvent: 0
+  AnyEvent::DBI: 0
+  AnyEvent::Handle: 0
+  AnyEvent::IRC: 0
+  Config::Any: 0
+  Encode: 0
+  File::Temp: 0
+  Moose: 0.92
+  MooseX::Getopt: 0
+  MooseX::SimpleConfig: 0.04
+  namespace::clean: 0
+  perl: 5.8.0
+resources:
+  license: http://dev.perl.org/licenses/
+  repository: git://github.com/lestrrat/Morris.git
+version: 0.01000_01
